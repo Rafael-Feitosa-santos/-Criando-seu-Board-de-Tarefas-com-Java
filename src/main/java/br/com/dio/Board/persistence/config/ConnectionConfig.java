@@ -8,9 +8,9 @@ public final class ConnectionConfig {
 
 
     public static Connection getConnection() throws SQLException {
-        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String url = "jdbc:postgresql://localhost:5432/kanban";
         String user = "postgres";
-        String password = "123456";
+        String password = "admin";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         connection.setAutoCommit(false);
