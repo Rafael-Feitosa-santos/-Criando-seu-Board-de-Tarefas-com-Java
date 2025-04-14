@@ -14,7 +14,7 @@ Ideal para fins educativos, testes e estruturação de lógica com banco de dado
 
 ## 🚀 Tecnologias
 
-- Java 17+
+- Java 21
 - JDBC (puro, sem frameworks)
 - PostgreSQL
 - Docker (para subir o banco rapidamente)
